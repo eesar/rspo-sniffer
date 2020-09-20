@@ -9,7 +9,7 @@ The output of the serial interface can be further analyzed with the analyze_prot
 The found protocol and code can then be used used with
 [rc-switch](https://github.com/sui77/rc-switch)
 combined with [433Utils](https://github.com/ninjablocks/433Utils)
-or with [rspo-lite](https://github.com/eesar/rspo-lite).
+or with [rspo-send](https://github.com/eesar/rspo-send).
 Both ways where tested on a Raspberry-Pi 3b to control ***Remote Switched Power Outlet (RSPO)***.
 
 If you like to know the origin of the rspo-sniffer and rspo-lite have a look to the blog entry
