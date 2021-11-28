@@ -5,16 +5,18 @@ Arduino 433 MHz Remote Switched Power Outlet Universal Protocol Sniffer
 ## Introduction
 
 This sniffer is developed and tested on an Arduino Nano.
-The output of the serial interface can be further analyzed with the analyze_protocol.xlsx.
+The output of the serial interface can be further analyzed with the included file analyze_protocol.xlsx.
 The found protocol and code can then be used used with
 [rc-switch](https://github.com/sui77/rc-switch)
 combined with [433Utils](https://github.com/ninjablocks/433Utils)
 or with [rspo-lite](https://github.com/eesar/rspo-lite).
-Both ways where tested on a Raspberry-Pi 3b to control ***Remote Switched Power Outlet (RSPO)***.
+Both ways where tested on a Raspberry-Pi 3b to control ***Remote Switched Power Outlet (RSPO)***,
+form three different brands (ELRO, Conrad and HEITECH).
 
 If you like to know the origin of the rspo-sniffer and rspo-lite have a look to the blog entry
 [Remote Switched Power Outlet]((https://eesar.github.io/))
 on my github page.
+
 
 ## Bill of Material
 
@@ -27,7 +29,7 @@ or [Commercial](https://www.amazon.de/Antenne-Helical-Antenne-Fernbedienung-Ardu
 * [Arduino IDE](https://www.microsoft.com/de-de/p/arduino-ide/9nblggh4rsd8)
 
 
-## How To Use, as short as possible
+## How To, as Short as Possible
 
 ### Connect
 
